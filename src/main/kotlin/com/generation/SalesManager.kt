@@ -1,6 +1,6 @@
 package com.generation
 
-open class SalesManager (firstName: String,
+class SalesManager (firstName: String,
                         lastName: String,
                         registration: Int,
                         age: Int,

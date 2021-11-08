@@ -1,6 +1,6 @@
 package com.generation
 
-open class SalesRep(firstName: String, lastName: String, registration: Int,
+class SalesRep(firstName: String, lastName: String, registration: Int,
                     age: Int, daysWorked: Int, vacationDaysTaken: Int,
                     salary: Double, yearsWorked: Int, var sales: Double
 ) :

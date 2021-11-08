@@ -16,7 +16,7 @@ open class employee (var firstName: String, var lastName: String, var registrati
         return println("Tempo de férias: $vacationTimeRemaining")
     }
 
-    open fun calculateBonus() {
+    fun calculateBonus() {
         var bonus = 2.2*salary
         return println("O bônus salarial é de: R$$bonus")
     }
